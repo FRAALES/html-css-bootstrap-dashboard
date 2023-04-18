@@ -1,16 +1,32 @@
+/* Regole Header */
+
+.img-header{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-wrapper{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+#bell{
+    color: #ff8f00;
+}
+
+/* Regole Main */
 main{
     display: flex;
 }
 
 
+
 /* Regole di Debug */
 
 
-header{
-    height: 100px;
-    width: 100vw;
-    background-color: aqua;
-}
 
 
 .side-bar{
