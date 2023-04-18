@@ -1,0 +1,28 @@
+main{
+    display: flex;
+}
+
+
+/* Regole di Debug */
+
+
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+}
+
+
+.side-bar{
+    width: 200px;
+    height: 100vh;
+    background-color: blue;
+}
+
+
+
+.parte-principale{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
