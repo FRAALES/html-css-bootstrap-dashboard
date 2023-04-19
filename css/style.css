@@ -21,7 +21,9 @@
 
 
 
-
+.flex-grow-form{
+    flex-grow: 10;
+}
 
 
 
