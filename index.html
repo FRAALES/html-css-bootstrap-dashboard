@@ -19,12 +19,12 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <div class="img-wrapper">
+                <div class="img-wrapper d-lg-none">
                     <img class="img-header" src="img/mobile-logo.png" alt="">
                 </div>
 
                 <!-- Classe mia per il breakpoint LG così che si veda il logo grande -->
-                <div class="container-lg">
+                <div class="d-none d-lg-inline-block">
                     <img src="img/logo.svg" alt="">
                 </div>
 
@@ -34,8 +34,20 @@
                 </form>
 
 
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i id="bell" class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i id="bell" class="fa-solid fa-bell"></i>
               </button>
 
@@ -54,7 +66,7 @@
                   </li>
                 </ul>
                 
-              </div>
+              </div> -->
 
 
             </div>
