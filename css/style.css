@@ -1,5 +1,6 @@
 /* Regole Header */
 
+
 .img-header{
     width: 100%;
     height: 100%;
@@ -17,10 +18,21 @@
     color: #ff8f00;
 }
 
+
+
+
+
+
+
+
+
+
 /* Regole Main */
 main{
     display: flex;
 }
+
+
 
 
 
@@ -30,7 +42,7 @@ main{
 
 
 .side-bar{
-    width: 200px;
+    width: 10vw;
     height: 100vh;
     background-color: blue;
 }
