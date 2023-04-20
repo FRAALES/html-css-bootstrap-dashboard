@@ -1,11 +1,5 @@
 /* Regole Header */
 
-header{
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    z-index: 200;
-}
 
 
 a {
@@ -43,8 +37,6 @@ a {
 /* Regole generali Main */
 main{
     display: flex;
-    position: absolute;
-    top: 6vh;
 }
 
 
@@ -75,9 +67,14 @@ main{
 }
 
 
+/* Regole main parte in alto, subito sotto l'header */
 
-
-
+.blu-chiaro{
+    background-color: #1b72e8;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
 
 /* Regole di Debug */
 
@@ -98,8 +95,3 @@ main{
 }
 
 
-.blu-chiaro{
-    background-color: #1b72e8;
-    width: 100%;
-    height: 200px;
-}
