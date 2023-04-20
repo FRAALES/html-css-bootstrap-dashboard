@@ -18,7 +18,14 @@
     color: #ff8f00;
 }
 
+/* .position-relative{
+    position: relative;
+    left: 90px;
+}
 
+.position-absolute{
+    position: absolute;
+} */
 
 
 .flex-grow-form{
@@ -29,8 +36,6 @@
 .form-bg-header{
     background-color: #e5e5e5;
 }
-
-
 
 
 
