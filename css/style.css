@@ -1,7 +1,6 @@
 /* Regole Header */
 
 
-
 a {
      color: inherit; 
     } 
@@ -72,9 +71,16 @@ main{
 .blu-chiaro{
     background-color: #1b72e8;
     width: 100%;
-    height: 200px;
+    height: 130px;
     color: white;
 }
+
+
+
+
+
+
+
 
 /* Regole di Debug */
 
@@ -89,9 +95,9 @@ main{
 
 
 .parte-principale{
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
-    background-color: red;
+ 
 }
 
 
