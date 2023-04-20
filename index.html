@@ -15,7 +15,7 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <!-- Qui ci va l'header con logo, barra e nav  -->
+    <!-- Qui ci va l'header con logo, search-bar e nav  -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -29,9 +29,6 @@
                 </div>
 
 
-
-
-
                 <!-- Form di BS per la barra centrale SEARCH -->
                 <form class="d-flex flex-grow-form px-4" role="search">
                     
@@ -40,49 +37,35 @@
                     
                         <input type="text" id="disabledTextInput" class="form-control form-bg-header" placeholder="Prova a cercare lezioni di Laravel">
                     </span>
-                    
-            
-                    <!-- <input class="form-control me-2" type="search" placeholder="Prova a cercare lezioni di Laravel" aria-label="Search"> -->
                 </form>
 
-               
+
+                <!-- Qui ci vanno le 3 icone visibili solo in LG -->
+
+                <div class="d-none d-lg-inline-block">
+                    <a href="#">
+                        <span><i class="fa-solid fa-bars mx-2"></i></span>
+                    </a> 
+                    <a href="#">
+                        <span><i class="fa-solid fa-circle-question mx-2"></i></span>
+                    </a>               
+                    <a href="#">
+                        <span><i class="fa-solid fa-ellipsis-vertical mx-2"></i></span>
+                    </a>   
+                </div>
+
 
                 <!-- Questa è la campanella gialla sulla destra -->
                 <div class="dropdown">
                     <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i id="bell" class="fa-solid fa-bell"></i>
                     </button>
-                    <ul class="dropdown-menu me-4">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
                 </div>
-
-
-
-              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="bell" class="fa-solid fa-bell"></i>
-              </button>
-
-
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Profilo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Fatturazione</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Logout</a>
-                  </li>
-                </ul>
-                
-              </div> -->
-
-
             </div>
           </nav>
 
@@ -94,11 +77,30 @@
 
 
 
-    <!-- Qui va la parte principale -->
+    <!-- Qui va la parte principale, divisa in 2: side-bar e main vero e proprio -->
     <main>
 
         <!-- Qui metto la sidebar che rimane fissa sulla sinistra -->
         <section class="side-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="icon-side-bar">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="icon-side-bar">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <div class="icon-side-bar">
+                        <i class="fa-solid fa-signal"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icon-side-bar">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+
+            </div>
 
         </section>
 
@@ -108,6 +110,11 @@
 
         <!-- Qui ci va il main vero e proprio -->
         <section class="parte-principale">
+
+            <!-- Questa è la sezione blu chiara subito sotto l'header -->
+            <section class="blu-chiaro">
+
+            </section>
 
 
 
